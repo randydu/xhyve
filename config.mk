@@ -36,6 +36,9 @@ CFLAGS_WARN := \
   -Werror \
   -Wno-unknown-warning-option \
   -Wno-reserved-id-macro \
+  -Wno-unused-but-set-variable \
+  -Wno-poison-system-directories \
+  -Wno-implicit-int-conversion \
   -pedantic
 
 CFLAGS_DIAG := \
